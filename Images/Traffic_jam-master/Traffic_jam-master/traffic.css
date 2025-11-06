@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(88, 247, 88);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.sky {
+    position: absolute;
+    width: 100%;
+    height: 42vh;
+}
+
+.houses {
+    position: absolute;
+    width: 99%;
+}
+
+.Aeroplane {
+    position: relative;
+    top: -90px;
+    animation: plane 2.5s linear infinite forwards;
+}
+
+.chopper {
+    position: relative;
+    top: 90px;
+    animation: chopper 4.5s linear infinite forwards;
+}
+
+@keyframes plane {
+    0% {
+        transform: translate(1900px);
+    }
+
+    100% {
+        transform: translate(-400px);
+    }
+}
+
+
+.road {
+    position: relative;
+    margin-top: 120px;
+}
+
+.grass {
+    border: 10px solid rgb(49, 48, 48);
+    background-color: rgb(49, 48, 48);
+    margin-top: -10px;
+    position: relative;
+    height: 4vh;
+}
+
+.road2 {
+    position: relative;
+}
+
+
+@keyframes chopper {
+    0% {
+        transform: translate(1450px);
+    }
+
+    100% {
+        transform: translate(-550px);
+    }
+}
+
+.bike {
+    position: relative;
+    top: -750px;
+    animation: bike 4s linear infinite forwards;
+    width: 200px;
+}
+
+@keyframes bike {
+    0% {
+        transform: translate(1900px);
+    }
+
+    100% {
+        transform: translate(-550px);
+    }
+}
+
+.lorry1 {
+    position: relative;
+    top: -580px;
+    z-index: 10;
+    animation: truck 6s linear infinite forwards;
+}
+
+@keyframes truck {
+    0% {
+        transform: translate(1850px);
+    }
+
+    100% {
+        transform: translate(-550px);
+    }
+}
+
+.taxi {
+    position: relative;
+    top: -650px;
+    animation: taxi 4.5s linear infinite forwards;
+    width: 300px;
+}
+
+@keyframes taxi {
+    0% {
+        transform: translate(1450px);
+    }
+
+    100% {
+        transform: translate(-750px);
+    }
+}
+
+.ped-woman {
+    position: relative;
+    top: -880px;
+    width: 200px;
+    z-index: 10;
+    animation: pedwoman 15s linear infinite forwards;
+}
+
+@keyframes pedwoman {
+    0% {
+        transform: translate(-950px);
+    }
+
+    100% {
+        transform: translate(1450px);
+    }
+}
+
+.ped-man {
+    position: relative;
+    top: -890px;
+    width: 200px;
+    z-index: 10;
+    animation: pedman 18s linear infinite forwards;
+}
+
+@keyframes pedman {
+    0% {
+        transform: translate(1400px);
+    }
+
+    100% {
+        transform: translate(-1000px);
+    }
+}
+
+.trafficlight1 {
+    position: relative;
+    width: 90px;
+    z-index: 10;
+    top: -600px;
+    left: -1000px;
+}
+
+.trafficlight2 {
+    position: relative;
+    width: 90px;
+    z-index: 10;
+    top: -600px;
+    left: -450px;
+}
+
+.trafficlight3 {
+    position: relative;
+    width: 90px;
+    z-index: 10;
+    top: -600px;
+    right: 200px;
+}
+
+.trafficlight4 {
+    position: relative;
+    width: 90px;
+    z-index: 10;
+    top: -600px;
+    right: -70px;
+}
+
+.trafficlight5 {
+    position: relative;
+    width: 90px;
+    z-index: 10;
+    top: -600px;
+    right: -200px;
+}
+
+.badge1 {
+    position: relative;
+    width: 300px;
+    z-index: 10;
+    top: -550px;
+    left: -1290px;
+}
+
+.badge2 {
+    position: relative;
+    width: 300px;
+    z-index: 10;
+    top: -830px;
+    right: -1300px;
+}
+
+.bicycle {
+    position: relative;
+    top: -720px;
+    z-index: 10;
+    width: 130px;
+    animation: bicycle 10s linear infinite forwards;
+}
+
+@keyframes bicycle {
+    from {
+        transform: translate(-550px);
+    }
+
+    to {
+        transform: translate(1850px);
+    }
+}
+
+.sportcar {
+    position: relative;
+    top: -750px;
+    z-index: 10;
+    width: 250px;
+    animation: sportcar 2s linear infinite forwards;
+}
+
+@keyframes sportcar {
+    from {
+        transform: translate(-550px);
+    }
+
+    to {
+        transform: translate(1850px);
+    }
+}
+
+.policecar {
+    position: relative;
+    top: -600px;
+    z-index: 10;
+    width: 200px;
+    animation: policecar 3s linear infinite forwards;
+}
+
+@keyframes policecar {
+    from {
+        transform: translate(-950px);
+    }
+
+    to {
+        transform: translate(1400px);
+    }
+}
+
+.lorry2 {
+    position: relative;
+    top: -580px;
+    z-index: 10;
+    width: 200px;
+    animation: lorry2 7s linear infinite forwards;
+}
+
+@keyframes lorry2 {
+    from {
+        transform: translate(-1900px);
+    }
+
+    to {
+        transform: translate(1400px);
+    }
+}
+
+.birds2 {
+    position: relative;
+    width: 250px;
+    top: -1570px;
+    right: -200px;
+}
+
+.birds1 {
+    position: relative;
+    width: 250px;
+    top: -1350px;
+    left: -750px;
+}
